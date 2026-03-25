@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Suit Bazar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Suit Bazar</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#collection">Collection</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+            <div class="cart-icon" onclick="window.location.href='cart.html'">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="cart-badge" id="cart-badge">0</span>
+            </div>
+            <div class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header about-bg">
+        <div class="header-content">
+            <h1>Our Story</h1>
+            <p>Crafting excellence since 1990</p>
+        </div>
+    </header>
+
+    <section class="about-section">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1593032465175-481ac7f401a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tailoring craftsman">
+            </div>
+            <div class="about-text">
+                <h2>The Art of Unstitched Fabrics</h2>
+                <p>Suit Bazar was founded with a simple vision: to bring premium, high-quality unstitched fabrics to the modern gentleman. We believe that wearing a traditional Shalwar Kameez is more than just clothing; it is a statement of cultural pride, confidence, and personal style.</p>
+                <p>Every fabric in our collection is selected with meticulous attention to detail, sourced from the finest textile mills around the world. Whether you need a crisp Cotton for summer days, a classic Wash & Wear for daily use, or a luxurious Boski for special occasions, our unstitched collection gives you the freedom to craft your perfect length and look.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>30+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10k+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Premium Fabrics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Suit Bazar</div>
+            <p>&copy; 2026 Suit Bazar. All Rights Reserved.</p>
+            <div class="socials">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+    </footer>
+    <div id="toast-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>

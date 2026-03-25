@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Egyptian Cotton | Suit Bazar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar active-nav">
+        <div class="logo">Suit Bazar</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#collection">Collection</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+            <div class="cart-icon" onclick="window.location.href='cart.html'">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="cart-badge" id="cart-badge">0</span>
+            </div>
+            <div class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="product-details-section">
+        <div class="product-details-container">
+            <div class="product-image-gallery">
+                <img src="https://images.unsplash.com/photo-1606170033648-5d55a3edf314?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Premium Egyptian Cotton" id="main-product-img">
+            </div>
+            <div class="product-info-detail">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> / <a href="index.html#collection">Collection</a> / <span>Premium Egyptian Cotton</span>
+                </div>
+                <h1>Premium Egyptian Cotton (White)</h1>
+                <p class="product-price">Rs. 4,500</p>
+                <div class="product-description">
+                    <p>Elevate your daily wear with our signature Premium Egyptian Cotton. Crafted from 100% pure long-staple cotton, this unstitched fabric features a smooth finish, breathable texture, and impeccable durability for the ultimate refined traditional look. Perfect for Jummah prayers, formal events, and summer comfort.</p>
+                    <ul>
+                        <li>100% Pure Egyptian Cotton</li>
+                        <li>Breathable and lightweight</li>
+                        <li>Soft finish with gentle drape</li>
+                        <li>Standard 4.5 Meter cutting</li>
+                    </ul>
+                </div>
+                
+                <div class="product-options">
+                    <div class="size-selector">
+                        <h3>Select Length:</h3>
+                        <div class="sizes">
+                            <span class="size-btn">4.0m</span>
+                            <span class="size-btn active">4.5m</span>
+                            <span class="size-btn">5.0m</span>
+                            <span class="size-btn">5.5m</span>
+                        </div>
+                    </div>
+                    <div class="quantity-selector">
+                        <h3>Quantity:</h3>
+                        <input type="number" value="1" min="1" max="10">
+                    </div>
+                </div>
+                
+                <div class="product-actions">
+                    <button class="btn add-to-cart-btn" onclick="addToCart('Premium Egyptian Cotton (White)', 4500, 'https://images.unsplash.com/photo-1606170033648-5d55a3edf314?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"><i class="fas fa-shopping-bag"></i> Add to Cart</button>
+                    <button class="btn btn-outline wishlist-btn"><i class="far fa-heart"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Suit Bazar</div>
+            <p>&copy; 2026 Suit Bazar. All Rights Reserved.</p>
+            <div class="socials">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+    </footer>
+    <div id="toast-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
