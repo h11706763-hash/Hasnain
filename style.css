@@ -50,9 +50,13 @@ h1, h2, h3, .logo {
 }
 
 .logo {
-    font-size: 2rem;
-    color: var(--accent-gold);
-    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
 }
 
 .nav-links {
@@ -307,10 +311,15 @@ footer {
 }
 
 .footer-logo {
-    font-family: var(--font-heading);
-    font-size: 2rem;
-    color: var(--text-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 1rem;
+}
+
+.footer-logo img {
+    height: 60px;
+    width: auto;
 }
 
 .footer-content p {
